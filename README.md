@@ -45,3 +45,7 @@ Step 4: コード修正実行      →  AI がソースコードを自動修正
 - **`modernize assess`** は AppCAT を内包し、さらに AI が `summary.md` を自動生成する。`modernize plan create` へシームレスに連携できる。
 - **CLI の `modernize plan create`** は AppCAT の検出結果を plan に反映できない設計上の制限がある。VS Code 拡張の Run Task（issue 起点）が正規フロー。
 - **`report.json` が既に生成済みの場合**、`modernize assess` を再実行せずに `modernize plan create` から始めることができる。
+
+## ライセンス
+
+[MIT License](LICENSE)
